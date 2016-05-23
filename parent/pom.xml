@@ -20,7 +20,7 @@
             working SNAPSHOT. INTERNAL TODO: HOW DOES A PROJECT FIND THIS INFORMATION
             OUT ??? Always verify SNAPSHOT version by checking the root pom.xml in the
             odlparent project for the release you are working with -->
-        <version>1.5.0-SNAPSHOT</version>
+        <version>1.5.0-Lithium</version>
         <!-- This is a local file system path, and is used for an override. It
             tells maven not to go to the root pom.xml for this project, which refers
             to this pom.xml. OPTIONAL TODO: May remove this. -->
@@ -30,7 +30,7 @@
     <groupId>org.opendaylight.ODL-skeleton</groupId>
     <artifactId>ODL-skeleton-parent</artifactId>
     <name>ODL-skeleton parent</name>
-    <version>0.0.1-Lithium</version> <!-- Note using same version from Root pom.xml -->
+    <version>0.0.1-SNAPSHOT</version> <!-- Note using same version from Root pom.xml -->
     <packaging>pom</packaging> <!-- This line is very important, we aren't making any other side-effects
         than the POM -->
 
